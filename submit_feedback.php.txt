@@ -1,0 +1,19 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+  $name = $_POST['name'];
+ 
+ $email = $_POST['email'];
+
+  $feedback = $_POST['feedback'];
+  
+  // Process the data (e.g., save it to a database)
+  
+  // Here, you could perform database operations to store the feedback
+  
+  // For demonstration purposes, let's just
+ echo the submitted data
+ 
+ echo "Thank you, $name! Your feedback ($feedback) has been submitted.";
+}
+?>
